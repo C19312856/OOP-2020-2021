@@ -20,11 +20,23 @@ public class Main
         System.out.println(misty);
         System.out.println(topCat);
 
+
+
+
         // What will get printed out??
 
         // 1. topcat, Garfield
         // 2. garfield, Garfield 
 
+
+        Cat ginger = new Cat("Ginger");
+
+        
+        while(ginger.getNumLives() > 0)
+        {
+            ginger.kill();
+        }
+        ginger.kill();
 
     }
 } 
