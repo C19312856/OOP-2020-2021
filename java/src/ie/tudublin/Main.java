@@ -33,6 +33,12 @@ public class Main
         ginger.kill();
     }
 
+    public void bugZap()
+    {
+        String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new BugZap());
+    }
+
     public void helloProcessing1()
     {
         String[] a = {"MAIN"};
@@ -48,6 +54,6 @@ public class Main
     public static void main(String[] args)
     {
         Main main = new Main();
-        main.helloProcessing2();
+        main.bugZap();
     }
 } 
